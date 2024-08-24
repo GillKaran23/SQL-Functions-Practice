@@ -4,7 +4,7 @@ This repository contains SQL practice exercises designed to learn and master dif
 
 ## Table Structure
 
-### **employee_data** Table
+### `employee_data` Table
 
 | Column      | Data Type     | Description                      |
 |-------------|---------------|----------------------------------|
@@ -19,16 +19,16 @@ This repository contains SQL practice exercises designed to learn and master dif
 
 ### String Functions
 
-1. **Concatenate First and Last Names**: Write a query to concatenate **first_name** and **last_name** to form a full name for each employee.
-2. **Uppercase Department Names**: Convert all characters in the **department** column to uppercase.
-3. **Name Length**: Find the length of the **first_name** for each employee.
-4. **Substring Extraction**: Extract the first three characters from the **last_name** of each employee.
-5. **Replace Characters in First Names**: Replace any occurrence of the letter "a" in the **first_name** with the letter "e".
-6. **Count Names Starting with "J"**: Count how many employees have a **last_name** that starts with the letter "J".
-7. **Trim Department Names**: Trim any leading or trailing spaces from the **department** names.
-8. **Find Substring in First Names**: Find and list employees whose **first_name** contains the substring "an".
-9. **Pad First Names**: Pad the **first_name** to a length of 10 characters, adding asterisks (*) at the end.
-10. **Lowercase Last Names**: Convert the **last_name** of each employee to lowercase.
+1. **Concatenate First and Last Names**: Write a query to concatenate `first_name` and `last_name` to form a full name for each employee.
+2. **Uppercase Department Names**: Convert all characters in the `department` column to uppercase.
+3. **Name Length**: Find the length of the `first_name` for each employee.
+4. **Substring Extraction**: Extract the first three characters from the `last_name` of each employee.
+5. **Replace Characters in First Names**: Replace any occurrence of the letter "a" in the `first_name` with the letter "e".
+6. **Count Names Starting with "J"**: Count how many employees have a `last_name` that starts with the letter "J".
+7. **Trim Department Names**: Trim any leading or trailing spaces from the `department` names.
+8. **Find Substring in First Names**: Find and list employees whose `first_name` contains the substring "an".
+9. **Pad First Names**: Pad the `first_name` to a length of 10 characters, adding asterisks (*) at the end.
+10. **Lowercase Last Names**: Convert the `last_name` of each employee to lowercase.
 
 ### Numeric Functions
 
