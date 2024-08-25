@@ -18,9 +18,39 @@ WHERE
 
 
 -- 3. Count High Earners: Determine the number of employees with a salary greater than 60,000.
+SELECT
+    CONCAT('The number of employees with a salary greater than 60,000 are: ', COUNT(*)) AS 'Employees Count'
+FROM
+    employee_data
+WHERE 
+	salary > 60000;
+
+
 -- 4. Sum Salaries by Department: Calculate the total sum of `salary` for all employees in the "Engineering" department.
+SELECT
+    SUM(salary) AS 'Total Salary'
+FROM
+    employee_data
+WHERE department='Engineering';
+
+
 -- 5. Round Salaries: Round the `salary` to the nearest thousand.
+SELECT
+	id,
+    ROUND(salary,-3) AS 'Rounded Salaries'
+FROM
+    employee_data;
+
+
 -- 6. Salary Range: Find the difference between the highest and lowest `salary`.
+SELECT
+    MAX(salary) AS 'MAX Salary', 
+    MIN(salary) AS 'MIN Salary',
+    (MAX(salary) - MIN(salary)) AS 'Difference'
+FROM
+    employee_data;
+
+
 -- 7. Salary as Percentage of Max: Calculate the `salary` as a percentage of the maximum `salary` in the company.
 -- 8. Even ID Employees: Use the MOD function to find employees whose `id` is an even number.
 -- 9. Random Salary Increase: Generate a random `salary` increase of up to 5% for all employees.
