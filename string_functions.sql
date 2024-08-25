@@ -32,3 +32,21 @@ SELECT
     SUBSTRING(last_name,1,3)
 FROM
     employee_data;
+
+
+-- 5. Replace Characters in First Names: Replace any occurrence of the letter "a" in the first_name with the letter "e".
+SELECT
+    id,
+    first_name,
+    REPLACE(first_name,'a','e')
+FROM
+    employee_data;
+
+
+-- 6. Count Names Starting with "J": Count how many employees have a last_name that starts with the letter "J".
+SELECT
+    CONCAT("Employees Last Name Start With J are: ", COUNT(*)) AS 'J COUNT'
+FROM
+    employee_data
+WHERE 
+	last_name LIKE 'J%';
