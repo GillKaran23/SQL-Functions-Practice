@@ -46,7 +46,7 @@ This repository contains SQL practice exercises designed to learn and master dif
 12. **Square Root of Salary**: Find the square root of the `salary` of each employee.
 13. **Logarithm of Salary**: Calculate the logarithm (base 10) of each employee's `salary`.
 14. **5% Salary Raise**: Multiply each employee’s `salary` by 1.05 to show a 5% raise.
-15. **Average Salary by Hire Date**: Find the average `salary` of employees who have been hired after January 1, 2015.
+15. **Average Salary by Hire Date**: Find the average `salary` of employees who have been hired Between January 1, 2015 & January 1, 2016.
 
 ### Date and Time Functions
 
