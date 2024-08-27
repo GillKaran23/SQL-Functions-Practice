@@ -63,5 +63,5 @@ This repository contains SQL practice exercises designed to learn and master dif
 11. **Month Name from Hire Date**: Extract the month name from the `hire_date`.
 12. **Employees Hired in Leap Year**: Find employees who were hired in a leap year.
 13. **Future Date Calculation**: Use the DATE_ADD function to show the date 30 days after each employee's `hire_date`.
-14. **Calculate Employee Age**: Calculate the age of each employee based on their `hire_date` assuming the `hire_date` represents their employment start date.
+14. **Calculate Employee Experience**: Calculate the Experience of each employee based on their `hire_date` assuming the `hire_date` represents their employment start date.
 15. **Hired on Fridays**: Determine the number of employees hired on a Friday.
